@@ -2,6 +2,9 @@ import {Spacecraft}from './spacecraft'
 import {Millenniumfalconn}from './starfighters'
 import {Containership} from './containership';
 
+import * as _ from 'lodash'
+console.log(_.pad("TypeScript Examples", 40,"="))
+
 let ship = new Spacecraft('hyperdrive')
 ship.jumpIntoHperspace()
 
